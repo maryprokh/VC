@@ -1,0 +1,8 @@
+Contiguous U.S., Average Temperature, April
+Units: Degrees Fahrenheit
+Base Period: 2016-2018
+Missing: -99
+Date,Value,Anomaly
+201604,53.19,1.18
+201704,53.80,1.79
+201804,49.03,-2.98

@@ -1,0 +1,8 @@
+Contiguous U.S., Average Temperature, February
+Units: Degrees Fahrenheit
+Base Period: 2016-2018
+Missing: -99
+Date,Value,Anomaly
+201602,39.47,0.75
+201702,41.18,2.46
+201802,35.51,-3.21

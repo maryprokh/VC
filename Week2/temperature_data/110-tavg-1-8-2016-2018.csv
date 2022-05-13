@@ -1,0 +1,8 @@
+Contiguous U.S., Average Temperature, August
+Units: Degrees Fahrenheit
+Base Period: 2016-2018
+Missing: -99
+Date,Value,Anomaly
+201608,73.53,0.51
+201708,72.01,-1.01
+201808,73.51,0.49

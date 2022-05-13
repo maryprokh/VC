@@ -1,0 +1,8 @@
+Contiguous U.S., Average Temperature, December
+Units: Degrees Fahrenheit
+Base Period: 2016-2018
+Missing: -99
+Date,Value,Anomaly
+201612,32.95,-1.30
+201712,34.29,0.04
+201812,35.51,1.26

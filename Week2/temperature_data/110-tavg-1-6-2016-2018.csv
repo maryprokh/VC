@@ -1,0 +1,8 @@
+Contiguous U.S., Average Temperature, June
+Units: Degrees Fahrenheit
+Base Period: 2016-2018
+Missing: -99
+Date,Value,Anomaly
+201606,71.76,0.54
+201706,70.36,-0.86
+201806,71.55,0.33

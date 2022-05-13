@@ -1,0 +1,8 @@
+Contiguous U.S., Average Temperature, May
+Units: Degrees Fahrenheit
+Base Period: 2016-2018
+Missing: -99
+Date,Value,Anomaly
+201605,60.33,-1.81
+201705,60.57,-1.57
+201805,65.52,3.38

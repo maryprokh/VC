@@ -1,0 +1,8 @@
+Contiguous U.S., Average Temperature, October
+Units: Degrees Fahrenheit
+Base Period: 2016-2018
+Missing: -99
+Date,Value,Anomaly
+201610,57.72,2.01
+201710,55.69,-0.02
+201810,53.71,-2.00

@@ -1,0 +1,8 @@
+Contiguous U.S., Average Temperature, July
+Units: Degrees Fahrenheit
+Base Period: 2016-2018
+Missing: -99
+Date,Value,Anomaly
+201607,75.22,-0.24
+201707,75.70,0.24
+201807,75.45,-0.01

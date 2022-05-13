@@ -1,0 +1,8 @@
+Contiguous U.S., Average Temperature, November
+Units: Degrees Fahrenheit
+Base Period: 2016-2018
+Missing: -99
+Date,Value,Anomaly
+201611,47.97,3.63
+201711,45.03,0.69
+201811,40.01,-4.33

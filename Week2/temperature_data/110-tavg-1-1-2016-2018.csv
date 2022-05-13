@@ -1,0 +1,8 @@
+Contiguous U.S., Average Temperature, January
+Units: Degrees Fahrenheit
+Base Period: 2016-2018
+Missing: -99
+Date,Value,Anomaly
+201601,32.22,-0.43
+201701,33.57,0.92
+201801,32.16,-0.49

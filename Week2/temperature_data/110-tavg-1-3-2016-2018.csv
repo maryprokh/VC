@@ -1,0 +1,8 @@
+Contiguous U.S., Average Temperature, March
+Units: Degrees Fahrenheit
+Base Period: 2016-2018
+Missing: -99
+Date,Value,Anomaly
+201603,47.50,2.04
+201703,46.15,0.69
+201803,42.73,-2.73
