@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+
+<h1>Predict Raisin Type</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+
+  <form action="{{ url_for('predict')}}"method="post">
+		<input type="text" name="area" placeholder="Area" required="required" />
+        <input type="text" name="major_axis_length" placeholder="Major Axis Length" required="required" />
+		<input type="text" name="minor_axis_length" placeholder="Minor Axis Length" required="required" />
+		<input type="text" name="eccentricity" placeholder="Eccentricity" required="required" />
+		<input type="text" name="convex_area" placeholder="ConvexArea" required="required" />
+		<input type="text" name="extent" placeholder="Extent" required="required" />
+		<input type="text" name="perimeter"  placeholder="Perimeter" required="required" />
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+ 
+   <h3><b>{{ prediction_text }}</b></h3>
+
+   <img src="/static/images/schema.png" style="width: 350px;position: absolute;top: 47%;left: 67%;" alt="Image"/>
+
+ <div class="text">
+
+  Features that determine type of raisin are morphological features that were extracted based on image processing:
+	<ul>
+	<li>Area: Gives the number of pixels within the
+boundaries of the raisin grain.</li>
+	<li>Perimeter: It measures the environment by
+calculating the distance between the boundaries of the
+raisin grain and the pixels around it.</li>
+	<li>MajorAxisLength: Gives the length of the main
+axis, which is the longest line that can be drawn on the
+raisin grain.</li>
+	<li>MinorAxisLength: Gives the length of the small
+axis, which is the shortest line that can be drawn on
+the raisin grain.</li>
+	<li>Eccentricity: It gives a measure of the eccentricity
+of the ellipse, which has the same moments as raisins.</li>
+	<li>ConvexArea: Gives the number of pixels of the
+smallest convex shell of the region formed by the
+raisin grain.</li>
+	<li>Extent: Gives the ratio of the region formed by the
+raisin grain to the total pixels in the bounding box.</li>
+	</ul>
+  <a href="https://dergipark.org.tr/tr/download/article-file/1227592">Full study text</a>
+
+ </div>
+
+</body>
+</html>
